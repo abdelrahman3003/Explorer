@@ -9,7 +9,7 @@ class AppAsset {
   static const String saturn = 'assets/images/saturn.png';
   static const String rocket = 'assets/images/rocket 1.png';
   static const String xIcon = 'assets/images/x.png';
-  static const String menuIcon = 'assets/images/menu (1).png';
+  static const String menuIcon = 'assets/images/menu.png';
   // animation
   static const String animation1 = 'assets/animation/space1.json';
   static const String animation2 = 'assets/animation/space2.json';

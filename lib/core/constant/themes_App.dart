@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class AppTheme {
   // Colors
@@ -13,26 +13,19 @@ class AppTheme {
 
   // Fonts
   // nunito
-  static TextStyle nunitoFont40 =
-      GoogleFonts.nunito(fontSize: 40, fontWeight: FontWeight.w900);
-  static TextStyle nunitoFont20 =
-      GoogleFonts.nunito(fontSize: 20, fontWeight: FontWeight.w900);
-  static TextStyle nunitoFont24 =
-      GoogleFonts.nunito(fontSize: 24, fontWeight: FontWeight.w900);
-  static TextStyle nunitoFont15 =
-      GoogleFonts.nunito(fontSize: 15, fontWeight: FontWeight.bold);
-  static TextStyle nunitoFont18 =
-      GoogleFonts.nunito(fontSize: 18, fontWeight: FontWeight.w900);
-  static TextStyle nunitoFont18Regular =
-      GoogleFonts.nunito(fontSize: 18, fontWeight: FontWeight.normal);
-
-  //openSansFont
-  static TextStyle openSansFont22 = GoogleFonts.openSans(
-    fontSize: 22,
-    fontWeight: FontWeight.bold,
+  static final textStyle30 = TextStyle(
+    fontSize: 30.sp,
+    fontWeight: FontWeight.normal,
+    color: const Color(0xffF9AD1A),
   );
-  static TextStyle openSansFont40 = GoogleFonts.openSans(
-    fontSize: 40,
-    fontWeight: FontWeight.bold,
+  static final textStyle22 = TextStyle(
+    fontSize: 22.sp,
+    fontWeight: FontWeight.normal,
+    color: const Color(0xffF9AD1A),
   );
+  static final textStyle40 = TextStyle(
+      fontSize: 40.sp,
+      fontWeight: FontWeight.normal,
+      color: const Color(0xffF9AD1A),
+      fontFamily: "Akshar");
 }
