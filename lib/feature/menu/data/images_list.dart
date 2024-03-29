@@ -1,0 +1,28 @@
+import '../../../core/constant/assets_app.dart';
+
+List<String> imageNameList = [
+  AppAsset.mars,
+  AppAsset.mercury,
+  AppAsset.earth,
+  AppAsset.jupiter,
+  AppAsset.venus,
+  AppAsset.mars,
+  AppAsset.mars,
+  AppAsset.mercury,
+  AppAsset.mars,
+  AppAsset.mercury,
+  AppAsset.earth,
+  AppAsset.jupiter,
+  AppAsset.venus,
+  AppAsset.mars,
+  AppAsset.earth,
+  AppAsset.jupiter,
+  AppAsset.venus,
+  AppAsset.mars,
+  AppAsset.mercury,
+  AppAsset.earth,
+  AppAsset.jupiter,
+  AppAsset.venus,
+  AppAsset.mars,
+  AppAsset.mars,
+];

@@ -21,9 +21,7 @@ class Explorer extends StatelessWidget {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
           title: 'Flutter Demo',
-          theme: ThemeData(
-            scaffoldBackgroundColor: AppTheme.purple1Color,
-          ),
+          theme: ThemeData(scaffoldBackgroundColor: AppTheme.purple1Color),
           routes: routes(),
         );
       },

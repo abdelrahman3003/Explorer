@@ -1,10 +1,10 @@
-import 'package:explorer/feature/home/presentation/view/widget/home_appbar.dart';
 import 'package:explorer/feature/home/presentation/view/widget/home_image.dart';
 import 'package:explorer/feature/home/presentation/view/widget/home_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../../../../core/constant/sizebox.dart';
+import '../../../../../core/constant/assets_app.dart';
+import '../../../../../core/utils/widget/home_appbar.dart';
 import 'home_Button.dart';
 
 class HomeViewBody extends StatelessWidget {
@@ -17,8 +17,8 @@ class HomeViewBody extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          AppSizebox.ksizebox28,
-          const HomeAppbar(),
+          SizedBox(height: 28.sp),
+          const HomeAppbar(image: AppAsset.menuIcon),
           SizedBox(height: 66.sp),
           const HomeText(),
           const Expanded(child: HomeImage()),
