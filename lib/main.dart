@@ -20,7 +20,7 @@ class Explorer extends StatelessWidget {
       builder: (context, child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'Flutter Demo',
+          title: 'Flutter Demoeeee',
           theme: ThemeData(scaffoldBackgroundColor: AppTheme.purple1Color),
           routes: routes(),
         );
